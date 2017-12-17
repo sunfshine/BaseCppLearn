@@ -2,7 +2,8 @@
 
 int main()
 {
-    const char *temp = "aa";
+    auto *temp = "aa";
     printf("%lu\n", sizeof(temp));
+    printf("%lu\n", sizeof("aa"));
     return 0;
 }
